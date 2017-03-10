@@ -1,0 +1,23 @@
+{
+  "name": "swhacks-wit",
+  "version": "1.0.0",
+  "description": "WIT demo for SWHacks",
+  "main": "pizza.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivkanthb/swhacks-wit.git"
+  },
+  "author": "shiv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivkanthb/swhacks-wit/issues"
+  },
+  "homepage": "https://github.com/shivkanthb/swhacks-wit#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "node-wit": "^4.2.0"
+  }
+}
