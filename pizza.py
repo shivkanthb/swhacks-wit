@@ -30,6 +30,7 @@ def set_pizza(request):
         context['pizzaSize'] = pizza_size
     else:
         context['missingInfo'] = True
+
     return context
 
 actions = {
