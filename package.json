@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/shivkanthb/swhacks-wit#readme",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "dotenv": "^4.0.0",
-    "node-wit": "^4.2.0"
+    "express": "^4.15.2",
+    "node-wit": "^4.2.0",
+    "request": "^2.81.0"
   }
 }
