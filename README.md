@@ -6,24 +6,25 @@ Interactive (terminal) & messenger demos on nodejs & python.
 ### Node
 #### Steps:
 
-1. Download/clone the repo
-2. Install the modules
+1 Download/clone the repo
+2 Install the modules
 ```
 npm install
 ```
-3. To run the interactive demo, do
+3 To run the interactive demo, do
 ```
 node pizza.js
 ```
-4. Create a .env file and paste your facebook page access token. (Only needed for the facebook demo)
+4 Create a .env file and paste your facebook page access token. (Only needed for the facebook demo)
 ```
 PAGE_ACCESS_TOKEN=<your-page-token>
 ```
-5. To run the messenger demo, do
+5 To run the messenger demo, do
 ```
 node messenger-pizza.js 
 ```
-3. Replace the WIT access token inside pizza.js & messenger-pizza.js with yours.
+6. Replace the WIT access token inside pizza.js & messenger-pizza.js with yours.
+
 > You can use mine to see how it works though. If you want to customize your wit, use yours to reflect changes.  
 
 ### Python
