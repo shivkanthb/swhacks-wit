@@ -166,7 +166,7 @@ app.post('/webhook/', function (req, res) {
 	res.sendStatus(200)
 })
 
-const token = process.env.PAGE_ACCESS_TOKEN || 'EAAFNhaSRphcBAPR7gJuEfpz88hWOc6USO9kltA3JG7IQmGuggOiHZCR4BhMsPznQGWiULJ5zEGO8OpdzPT7fNEIWSZAPSxaYGQ4TtDzMeXjoJKVFzGCxZAzxjiOAeZBt5A1pHgc3idXR8NWGfg6YqeQZBQwGFrc4BB18Q8AR78QZDZD'
+const token = process.env.PAGE_ACCESS_TOKEN;
 
 function sendTextMessage(sender, text) {
 	let messageData = { text:text }
